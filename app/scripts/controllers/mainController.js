@@ -174,7 +174,7 @@ angular.module('ethExplorer')
         //     var hr = json.data[0].hashRate;
         //     $scope.hashrate = hr;
        	// });
-      }
+      // }
 
         function getETHRates() {
           $.getJSON("https://api.coinmarketcap.com/v1/ticker/ethereum/", function(json) {
