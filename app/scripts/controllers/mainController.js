@@ -16,7 +16,7 @@ angular.module('ethExplorer')
             updateBlockList();
             updateTXList();
             updateStats();
-            getHashrate();
+            // getHashrate();
             $scope.$apply();
           }
         });
