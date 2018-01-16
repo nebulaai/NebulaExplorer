@@ -8,7 +8,7 @@ angular.module('ethExplorer')
         updateBlockList();
         updateTXList();
         updateStats();
-        getHashrate();
+        // getHashrate();
 
         web3.eth.filter("latest", function(error, result){
           if (!error) {
