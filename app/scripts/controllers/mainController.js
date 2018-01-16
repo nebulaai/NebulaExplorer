@@ -169,11 +169,11 @@ angular.module('ethExplorer')
 }
 
 
-        function getHashrate()	{
-          $.getJSON("https://etherchain.org/api/miningEstimator", function(json) {
-            var hr = json.data[0].hashRate;
-            $scope.hashrate = hr;
-       	});
+        // function getHashrate()	{
+        //   $.getJSON("https://etherchain.org/api/miningEstimator", function(json) {
+        //     var hr = json.data[0].hashRate;
+        //     $scope.hashrate = hr;
+       	// });
       }
 
         function getETHRates() {
