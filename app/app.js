@@ -3,7 +3,7 @@
 // TODO: Put go into a config.js
 // But how to include a file from local?
 
-var GETH_HOSTNAME	= "18.221.71.211";	// put your IP address!
+var GETH_HOSTNAME	= "127.0.0.1";	// put your IP address!
 var APP_HOSTNAME 	= "See package.json --> scripts --> start: Change 'localhost'!!!";
 
 var GETH_RPCPORT  	= 8545; 		// for geth --rpcport GETH_RPCPORT
