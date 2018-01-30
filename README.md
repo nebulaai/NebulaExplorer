@@ -1,10 +1,10 @@
-# Nebula Explorer V2 based off https://github.com/carsenk/explorer
+# Nebula Explorer V2 
 
-##License
+## License
 
 The code in this branch is licensed under GPLv3 (see LICENSE file)
 
-##Installation
+## Installation
 
 `git clone`
 
@@ -20,4 +20,5 @@ Make sure to install geth as well for the NBAI explorer to be able to function. 
 
 Then visit http://localhost:8000 in your browser of choice after you npm start the explorer
 
-
+Reference:
+https://github.com/carsenk/explorer
